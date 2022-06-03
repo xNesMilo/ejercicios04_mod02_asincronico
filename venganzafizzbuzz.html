@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>La venganza de FizzBuzz >:D!!!</h1>
+
+<script>
+    //Inicio FizzBuzz2
+    let valor = 0
+        const palabra1 = prompt('Ingrese una palabra') //Se agrega la primera palabra para remplazar Fizz
+        const palabra2 = prompt('Ingrese una segunda palabra') //Se agrega la segunda palabra para remplazar Buzz
+        const veces = prompt('Ingrese hasta cuanto quiere contar') // Hasta que numero quiere contar el usuario
+    while (valor<=100) {
+        if (((valor % 3)==0) && ((valor % 5)==0)) {
+            console.log(palabra1 + palabra2) 
+        }
+        else if ((valor % 5)==0){
+            console.log(palabra2)
+        }
+        else  {
+            console.log (valor + (' ,') + valor)
+        } 
+        valor++
+    } 
+</script>
+
+</body>
+</html>
